@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="59.5" y="121.0">AttendanceTracker.Absenteeism</node>
+    <node x="-68.0" y="55.0">AttendanceTracker.Teacher</node>
+    <node x="85.5" y="189.5">AttendanceTracker.Class</node>
+    <node x="201.0" y="189.5">AttendanceTracker.School</node>
+    <node x="-31.5" y="189.5">AttendanceTracker.Lesson</node>
+    <node x="72.5" y="55.0">AttendanceTracker.Manager</node>
+    <node x="80.0" y="-15.0">AttendanceTracker.Person</node>
+    <node x="220.5" y="55.0">AttendanceTracker.Student</node>
+    <node x="83.5" y="245.0">AttendanceTracker.Login</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="AttendanceTracker.Teacher" target="AttendanceTracker.Person" relationship="GENERALIZATION">
+      <point x="-0.0" y="-14.5" />
+      <point x="-17.0" y="-0.5" />
+      <point x="-47.0" y="-0.0" />
+    </edge>
+    <edge source="AttendanceTracker.Student" target="AttendanceTracker.Person" relationship="GENERALIZATION">
+      <point x="-0.0" y="-14.5" />
+      <point x="271.0" y="-0.5" />
+      <point x="47.0" y="-0.0" />
+    </edge>
+    <edge source="AttendanceTracker.Manager" target="AttendanceTracker.Person" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.512" showDependencies="false" x="807.234375" y="246.8203125" />
+  <SelectedNodes>
+    <node>AttendanceTracker.Teacher</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
